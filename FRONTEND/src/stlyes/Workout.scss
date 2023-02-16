@@ -1,0 +1,89 @@
+@import "Colors";
+.nav-tabs .nav-link {
+  margin-bottom: -1px;
+  /* background: 0 0; */
+  /* border: 1px solid transparent; */
+  /* border-top-left-radius: .25rem; */
+  // border-top-right-radius: 1.25rem;
+  border: 0;
+}
+.nav-tabs .nav-link {
+  /* margin-bottom: -1px; */
+  /* background: 0 0; */
+  /* border: 1px solid transparent; */
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+  border: none;
+  border-radius: 0%;
+}
+.des-1 {
+  margin: 0;
+  // justify-content: space-around !important;
+  justify-items: center !important;
+  i {
+    display: flex;
+    align-items: center !important;
+    justify-content: center !important;
+    margin-top: 10px;
+    // font-size: 100px;
+    color: rgb(211, 9, 9);
+    padding-top: 16px;
+    border-radius: 40%;
+  }
+  .icon {
+    padding-top: -19px;
+    background-color: rgb(127, 87, 201);
+    height: 110px;
+    // width: 100px;
+    opacity: 0.5;
+    border-radius: 50%;
+    // padding-bottom: 60px;
+  }
+}
+.cards-1 {
+  background: rgba(200, 126, 41, 0.38) !important;
+  // border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(13px) !important;
+  -webkit-backdrop-filter: blur(13px) !important;
+  // border: 1px solid rgba(96, 200, 41, 0.31) !important;
+  p {
+    margin: 0;
+    padding: 0;
+  }
+  h2 {
+    margin: 0;
+    padding: 0;
+    color: $Second;
+    color: black;
+    // background-color: grey;
+    font-size: auto;
+    font-weight: bold;
+  }
+  h3 {
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    // transition: all 2s ease-out;
+  }
+  // h3:hover {
+  //   // background-color: rgb(0, 255, 149);
+  // }
+}
+.btn {
+  /* background-color: rgb(40 89 236); */
+  padding: 10px 20px;
+  /* font-size: 16px; */
+  font-weight: bold;
+  /* border-radius: 10px; */
+  color: rgb(241, 241, 241);
+}
+
+.main1 {
+  // border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(13px) !important;
+  -webkit-backdrop-filter: blur(13px) !important;
+  // border: 1px solid rgba(96, 200, 41, 0.31) !important;
+}

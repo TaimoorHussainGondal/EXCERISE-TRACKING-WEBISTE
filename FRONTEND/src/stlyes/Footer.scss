@@ -1,0 +1,28 @@
+i {
+  font-size: 30px;
+}
+
+.olay1 {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-items: center;
+
+  Link {
+    flex-direction: row !important;
+    text-transform: none;
+    text-decoration: none;
+    list-style: none;
+    font-size: 100px;
+
+    color: blue !important;
+  }
+}
+.mainbody1 {
+  /* From https://css.glass */
+  background: rgba(21, 8, 67, 0.74);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13px);
+  -webkit-backdrop-filter: blur(13px);
+  border: 1px solid rgba(21, 8, 67, 0.26);
+}

@@ -1,0 +1,247 @@
+.mainbody {
+  background-image: url(../images/4289079.jpg);
+}
+.contact-form1 {
+  padding: 40px !important;
+  align-items: center;
+
+  /* From https://css.glass */
+  background: rgba(96, 200, 41, 0.38) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(13px) !important;
+  -webkit-backdrop-filter: blur(13px) !important;
+  border: 1px solid rgba(96, 200, 41, 0.31) !important;
+
+  // background-color: rgb(94, 226, 133) !important;
+  // border-radius: 40px !important;
+  // margin-top: 40px;
+  // box-shadow: 5px 5px 10px 2px rgba(63, 63, 63, 0.8);
+  h5 {
+    color: rgb(0, 0, 0);
+    font-style: initial;
+    font-family: sans-serif;
+    font-size: 25px !important;
+    font-weight: bold;
+  }
+  h3 {
+    text-shadow: 0ch;
+    font-style: italic;
+    font-family: ui-serif;
+    font-size: 20px !important;
+  }
+}
+.contact-form1:hover {
+  background: rgb(27 17 255 / 35%) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(6.7px) !important;
+  -webkit-backdrop-filter: blur(6.7px) !important;
+  border: 1px solid rgba(235, 42, 42, 0.31) !important;
+  height: 600px;
+  width: 100%;
+  h5 {
+    color: aliceblue;
+    text-align: center;
+  }
+  label {
+    color: rgb(255, 246, 246) !important;
+  }
+}
+.inputcard1 {
+  padding: 40px !important;
+  align-items: center;
+  background-color: rgb(13 110 253 / 25%) !important;
+  border-radius: 40px !important;
+  margin-top: 40px;
+  width: 300px;
+  align-content: center;
+  padding-left: 100px;
+  box-shadow: 5px 5px 10px 2px rgba(63, 63, 63, 0.8);
+  label {
+    text-shadow: 0ch;
+    font-weight: bold;
+    font-style: italic;
+    font-family: ui-serif;
+    font-size: 20px !important;
+  }
+}
+
+.card-title {
+  // background-color: cadetblue;
+  margin-bottom: 2.5rem;
+  height: auto;
+  color: lavenderblush;
+  font-style: initial;
+  font-size: large;
+  font-family: auto;
+  font-weight: bold;
+  border-bottom: steelblue;
+  height: fit-content;
+  padding: 33px;
+  text-align: center;
+  width: 100%;
+  /* From https://css.glass */
+  background: rgb(27 17 255 / 35%) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(6.7px) !important;
+  -webkit-backdrop-filter: blur(6.7px) !important;
+  border: 1px solid rgba(235, 42, 42, 0.31) !important;
+}
+.cardsshow {
+  background: rgb(255 120 218 / 68%) !important;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(13px) !important;
+  -webkit-backdrop-filter: blur(13px) !important;
+  border: 1px solid rgba(29, 83, 0, 0.31) !important;
+  margin-bottom: 2.5rem;
+  height: auto;
+  width: fit-content;
+  color: lavenderblush;
+  font-style: initial;
+  font-size: large;
+  font-family: auto;
+  font-weight: bold;
+  border-bottom: steelblue;
+  height: fit-content;
+  padding: 33px;
+  text-align: center;
+}
+.navtab1 {
+  width: 170px;
+  height: 500px;
+  align-content: flex-start;
+
+  background: rgb(27 17 255 / 35%) !important;
+  border-radius: 16px !important;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(6.7px) !important;
+  -webkit-backdrop-filter: blur(6.7px) !important;
+  border: 1px solid rgba(235, 42, 42, 0.31) !important;
+  button {
+    padding: 20px;
+  }
+}
+
+// .nav-link {
+//   color: rgb(187, 5, 5) !important;
+//   background-color: none !important;
+//   justify-content: space-between;
+//   font-size: 35px;
+//   font-weight: 400px;
+//   justify-content: space-around;
+//   padding: 10px;
+//   transition: background-color 0.5s ease;
+// }
+.btn {
+  /* background-color: rgb(40 89 236); */
+  padding: 10px 20px;
+  /* font-size: 16px; */
+  font-weight: bold;
+  /* border-radius: 10px; */
+  color: rgb(241, 241, 241);
+}
+.table1 {
+  padding: 20px !important;
+  background: rgba(5, 54, 160, 0.479) !important;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(13px) !important;
+  -webkit-backdrop-filter: blur(13px) !important;
+  border: 1px solid rgba(29, 83, 0, 0.31) !important;
+  margin-bottom: 2.5rem;
+  padding: 40px;
+  font-size: 30px;
+  padding: 30px;
+  height: auto;
+  width: 100%;
+  th {
+    color: black;
+  }
+}
+.nav-link {
+  font-size: 24px;
+  color: white !important;
+  // padding: 12px;
+  // border: 4px solid blue;
+  // color: white;
+  // background-color: black;
+}
+.card-group {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  .card {
+    background: rgba(4, 196, 4, 0.479) !important;
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+    backdrop-filter: blur(13px) !important;
+    -webkit-backdrop-filter: blur(13px) !important;
+    border: 1px solid rgba(29, 83, 0, 0.31) !important;
+    margin-bottom: 2.5rem;
+    width: 240px;
+    margin: 10px;
+
+    img {
+      height: fit-content;
+    }
+  }
+}
+.cardtext {
+  font-size: 20px;
+  font-weight: 400;
+  color: beige;
+}
+.table-text {
+  font-size: 23px;
+  font-weight: 100;
+  font-family: "Times New Roman", Times, serif;
+}
+.table-heading {
+  color: rgb(53, 10, 209);
+  font-size: 27px;
+  font-weight: bold;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.table1122 {
+  background-color: rgb(6, 22, 22);
+}
+.modal-content {
+  position: relative;
+  pointer-events: auto;
+  background-color: #ddd;
+  background-clip: padding-box;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 3.3rem;
+  outline: 0;
+  background-clip: url(http://localhost:3000/static/media/mp4.ecd7fe2….mp4);
+  padding: 20px !important;
+  background: rgba(5, 54, 160, 0.479) !important;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1) !important;
+  backdrop-filter: blur(13px) !important;
+  -webkit-backdrop-filter: blur(13px) !important;
+  border: 1px solid rgba(29, 83, 0, 0.31) !important;
+  margin-bottom: 2.5rem;
+}
+#v-pills-home {
+  h1 {
+    width: 100%;
+    font-size: 100px;
+    font-size: -59.5rem;
+    color: beige;
+    text-align: center;
+    margin: 30px;
+  }
+  h4 {
+    width: 100%;
+    font-size: 25px;
+    // background-color: aqua;
+
+    color: rgb(24, 9, 161);
+    text-align: center;
+  }
+}
